@@ -14,6 +14,7 @@
 		DE19B6DB2B794458003C2096 /* chatgpt_webviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE19B6DA2B794458003C2096 /* chatgpt_webviewTests.swift */; };
 		DE19B6E52B794458003C2096 /* chatgpt_webviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE19B6E42B794458003C2096 /* chatgpt_webviewUITests.swift */; };
 		DE19B6E72B794458003C2096 /* chatgpt_webviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE19B6E62B794458003C2096 /* chatgpt_webviewUITestsLaunchTests.swift */; };
+		DE19B6F42B7945E8003C2096 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE19B6F32B7945E8003C2096 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		DE19B6E02B794458003C2096 /* chatgpt-webviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chatgpt-webviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE19B6E42B794458003C2096 /* chatgpt_webviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatgpt_webviewUITests.swift; sourceTree = "<group>"; };
 		DE19B6E62B794458003C2096 /* chatgpt_webviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatgpt_webviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE19B6F32B7945E8003C2096 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				DE19B6CC2B794458003C2096 /* Assets.xcassets */,
 				DE19B6CE2B794458003C2096 /* chatgpt_webview.entitlements */,
 				DE19B6CF2B794458003C2096 /* Preview Content */,
+				DE19B6F32B7945E8003C2096 /* WebView.swift */,
 			);
 			path = "chatgpt-webview";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE19B6F42B7945E8003C2096 /* WebView.swift in Sources */,
 				DE19B6CB2B794457003C2096 /* ContentView.swift in Sources */,
 				DE19B6C92B794457003C2096 /* chatgpt_webviewApp.swift in Sources */,
 			);
